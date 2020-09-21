@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mybolg</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- CSS -->
+<link type="text/css" rel="stylesheet" href="css/blogCSS.css">
+</head>
+<body>
+	<h1 class="h2-color">MyBlog</h1>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">MyBlog</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="home.html">Home</a></li>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">New소식</a></li>
+					<li><a href="#">이벤트</a></li>
+					<li><a href="#">인기MyBlog</a></li>
+					<li><a href="Myblog.html">MyBlog관리</a></li>
+					<li><a href="#">카테고리</a></li>
+					<li><a href="#">상점</a></li>
+					<li><a href="#">커뮤니티</a></li>
+					<li><a href="#">설정</a></li>
+					<li><a href="#">고객센터</a></li>
+				</ul>
+
+				<img src="img/groot.jpg" class="img-circle" height="50" width="50">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+							LogOut</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/trevel.jpg" alt="Image">
+							<div class="carousel-caption">
+								<h3 class="textcol">Hot여행 블로그</h3>
+								<p class="textcol">파리</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="img/blog.jpg" alt="Image">
+							<div class="carousel-caption">
+								<h3 class="textcol">이달의 MyBlog</h3>
+								<p class="textcol">Good</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" role="button"
+						data-slide="prev"> <span
+						class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a> <a class="right carousel-control" href="#myCarousel" role="button"
+						data-slide="next"> <span
+						class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="well">
+					<p class="textcol">Some text..</p>
+				</div>
+				<div>
+					<p>	Aliquam erat volutpat. Praesent at turpis eleifend, faucibus
+						sapien et, molestie risus. Duis quis accumsan ex. Curabitur a
+						neque magna. Sed tempus orci eu libero malesuada, vitae vehicula
+						nibh vehicula. Integer malesuada neque at purus dictum pulvinar.
+						Nullam id auctor nisl, a feugiat tellus. Fusce enim mi, dapibus id
+						urna sed, dapibus luctus magna. Proin rutrum neque a nunc commodo
+						lobortis. Praesent ex mauris, cursus vel erat ac, rutrum aliquam
+						diam. Suspendisse venenatis nisl diam, eu tincidunt tellus
+						elementum quis. Suspendisse cursus lacinia lacus, in malesuada
+						eros pulvinar sit amet. Suspendisse ac sem vitae risus malesuada
+						suscipit. Duis blandit pellentesque tellus sit amet suscipit.
+						Quisque vel ligula pulvinar, bibendum sapien vel, molestie enim.</p>
+				</div>
+				<div>
+					<p>Visit Our Blog</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</div>
+
+	<div class="container text-center">
+		<h3>오늘의 MyBlog</h3>
+		<br>
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/people.jpg" class="img-responsive" style="width: 100%"
+					alt="Image">
+					<p>#Tomas</p>
+				<p>#친구들과 카페에서</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/tape.jpg" class="img-responsive" style="width: 100%"
+					alt="Image">
+					
+				<p>#Duis ut lorem enim</p>
+				<p>#lacinia et odio.</p>
+			</div>
+			<div class="col-sm-3">
+				<div>
+					<p>In ornare porta nisl nec vehicula. Lorem ipsum dolor sit
+						amet, consectetur adipiscing elit. Nulla facilisi. Morbi ac
+						ultrices nunc, a auctor nibh. Phasellus porttitor, urna ut semper
+						lobortis, risus ex dictum justo, id facilisis magna massa
+						dignissim erat. Aliquam porttitor iaculis erat et ornare. Cras
+						faucibus sapien ac nisl ornare, ut aliquam risus semper.
+						Vestibulum mollis felis arcu, in auctor est bibendum nec.</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="well">
+					<p>Some text..</p>
+				</div>
+				<div class="well">
+					<p>Some text..</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</div>
+
+	<div class="container text-center">
+		<h3>추천 MyBlog글!</h3>
+		<br>
+		<div class="row">
+			<div class="col-sm-2">
+				<img src="img/mixrice.jpg" class="img-responsive"
+					style="width: 100%" alt="Image">
+				<p>#김육식</p>
+				<p>#파란시 비빔밥 맛집 솔직후기</p>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/NewYork.jpg" class="img-responsive"
+					style="width: 100%" alt="Image">
+				<p>#킹철수</p>
+				<p>#뉴욕4박5일 여행~!</p>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/note.jpg" class="img-responsive" style="width: 100%"
+					alt="Image">
+				<p>#GoodBoy</p>
+				<p>#사과노트북 일주일 사용 후기</p>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/sp.jpg" class="img-responsive" style="width: 100%"
+					alt="Image">
+				<p>#암스트롱</p>
+				<p>우주여행 후기</p>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/vegetable.jpg" class="img-responsive"
+					style="width: 100%" alt="Image">
+				<p>Zz지존zZ</p>
+				<p>도전 과일쥬스 맛있게 만드는 법!</p>
+			</div>
+			<div class="col-sm-2">
+				<img src="img/alien.jpg" class="img-responsive" style="width: 100%"
+					alt="Image">
+
+				<p>#김에일리언</p>
+				<p>#$#@$$#^$#%^$#</p>
+			</div>
+		</div>
+	</div>
+	<br>
+
+
+	<nav class="text-center">
+		<ul class="pagination">
+			<li><a href="#" aria-label="Previous"> <span
+					aria-hidden="true">&laquo;</span>
+			</a></li>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span>
+			</a></li>
+		</ul>
+	</nav>
+	<hr>
+	<footer class="container-fluid text-center">
+		<p>Make by-MyBlog@footer</p>
+	</footer>
+
+	<!-- js파일 -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
